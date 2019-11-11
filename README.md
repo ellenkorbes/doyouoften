@@ -1,1 +1,1 @@
-This is an example project to illustrate the concepts in the Medium post, [Do You Often Manually Build, Push, And Deploy Container Images?](https://medium.com/garden-io/do-you-often-manually-build-push-and-deploy-container-images-9ae52b44f02d).
+This is an example project to illustrate the concepts in the Medium post, [Do You Often Manually Build, Push, And Deploy Container Images?](https://medium.com/garden-io/do-you-often-manually-build-push-and-deploy-container-images-9ae52b44f02d)
