@@ -1,0 +1,14 @@
+kind: Module
+name: two
+description: This is service Two!
+type: container
+services:
+  - name: two
+    ports:
+      - name: http
+        containerPort: 8080
+    ingresses:
+      - path: /
+        port: http
+    dependencies:
+      - one

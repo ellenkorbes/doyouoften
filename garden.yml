@@ -1,0 +1,23 @@
+kind: Project
+name: doyouoften
+environments:
+  - name: local
+    providers:
+      - name: local-kubernetes
+        # defaultHostname: garden.local
+---
+kind: Module
+name: one
+description: This is service One!
+type: container
+# dockerfile: one/Dockerfile
+# include:
+  # - one/**
+services:
+  - name: one
+    ports:
+      - name: http
+        containerPort: 8080
+    ingresses:
+      - path: /
+        port: http
